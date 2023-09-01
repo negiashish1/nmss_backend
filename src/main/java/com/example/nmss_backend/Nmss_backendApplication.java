@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class NmssApplication {
+public class Nmss_backendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NmssApplication.class, args);
+		SpringApplication.run(Nmss_backendApplication.class, args);
 	}
 	
 	@CrossOrigin
