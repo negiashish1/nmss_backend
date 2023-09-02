@@ -18,7 +18,8 @@ public class Nmss_backendApplication {
 	@CrossOrigin
 	@GetMapping("/hello")
 	public String hello(@RequestParam (value="name", defaultValue = "springboot") String name) {
-		return String.format("Hello %s", name);
+		//return String.format("Hello %s", name);
+		return String.format("Hello Sir/Mam, Welcome to our website");
 	}
 
 }
