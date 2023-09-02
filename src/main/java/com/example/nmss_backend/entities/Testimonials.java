@@ -3,16 +3,16 @@ package com.example.nmss_backend.entities;
 public class Testimonials {
 	private long id;
 	
-	private String image;
+	private String avatar;
 	private String name;
-	private String message;
+	private String review;
 	
-	public Testimonials(long id, String image, String name, String message) {
+	public Testimonials(long id, String avatar, String name, String review) {
 		super();
 		this.id = id;
-		this.image = image;
+		this.avatar = avatar;
 		this.name = name;
-		this.message = message;
+		this.review = review;
 	}
 
 	public Testimonials() {
@@ -28,12 +28,12 @@ public class Testimonials {
 		this.id = id;
 	}
 
-	public String getImage() {
-		return image;
+	public String getAvatar() {
+		return avatar;
 	}
 
-	public void setImage(String image) {
-		this.image = image;
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
 	}
 
 	public String getName() {
@@ -44,12 +44,12 @@ public class Testimonials {
 		this.name = name;
 	}
 
-	public String getMessage() {
-		return message;
+	public String getReview() {
+		return review;
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
+	public void setReview(String review) {
+		this.review = review;
 	}
 	
 	
